@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    justify-content:  center;
+    background-image: url("https://i.gifer.com/origin/e6/e6f9b3498761a818fcd21012dfe95436_w200.webp");
+    background-size: cover;
+    margin-top: 300px;
+
+    
+}
+#emg{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 30, 0);
+    border-radius: 50%;
+    position: relative;
+}
+#eye1{
+    height: 60px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    
+    margin-left: 70px;
+    margin-top: 70px;
+    margin-bottom: 170px;
+    position: absolute;
+}
+#eye2{
+    height: 60px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    
+    margin-left: 160px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    position: absolute;
+}
+#iris1{
+    height: 30px;
+    width: 25px;
+    background-color: rgb(249, 246, 246);
+    border-radius: 50%;
+    
+    margin-left: 75px;
+    margin-top: 75px;
+    margin-bottom: 170px;
+    position:absolute;
+}
+#iris2{
+    height: 30px;
+    width: 25px;
+    background-color: rgb(249, 246, 246);
+    border-radius: 50%;
+    
+    margin-left: 175px;
+    margin-top: 75px;
+    margin-bottom: 170px;
+    position: absolute;
+}
+
+#mouth{
+    height: 100px;
+    width: 115px;
+    
+    border-radius: 50%;
+    margin-left: 87px;
+    margin-top: 160px;
+    border-top: 15px solid black;
+    border-bottom: none;
+   
+    position: absolute;
+}
+#eyebrows1{
+    height: 1px;
+    width: 50px;
+    
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: 55px;
+    border-top: 5px solid black;
+    border-bottom: none;
+    transform: rotate(25deg);
+   
+    position: absolute;
+}
+#eyebrows2{
+    height: 1px;
+    width: 50px;
+    
+    border-radius: 50%;
+    margin-left: 160px;
+    margin-top: 55px;
+    border-top: 5px solid black;
+    border-bottom: none;
+    transform: rotate(150deg);
+   
+    position: absolute;
+}
